@@ -7,9 +7,7 @@
 //                             "file:${userHome}/.grails/${appName}-config.properties",
 //                             "file:${userHome}/.grails/${appName}-config.groovy"]
 
-// if (System.properties["${appName}.config.location"]) {
-//    grails.config.locations << "file:" + System.properties["${appName}.config.location"]
-// }
+grails.config.locations = ["file:${userHome}/config/MyQ-Config.properties"]
 
 grails.project.groupId = appName // change this to alter the default package name and Maven publishing destination
 
@@ -115,3 +113,9 @@ log4j.main = {
            'org.hibernate',
            'net.sf.ehcache.hibernate'
 }
+
+/*myQ = {
+	username = ""
+	password = ""
+}
+*/
