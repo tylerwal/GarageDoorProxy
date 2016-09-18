@@ -1,6 +1,6 @@
-package MyQApiProxy
+package myQApiProxy
 
-import Constants.*
+import constants.*
 import grails.transaction.Transactional
 import groovyx.net.http.*
 import static groovyx.net.http.ContentType.*

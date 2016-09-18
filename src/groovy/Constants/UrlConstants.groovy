@@ -1,4 +1,4 @@
-package Constants
+package constants
 
 class UrlConstants {	
 	public static final LOGIN_URL = 'https://myqexternal.myqdevice.com/Membership/ValidateUserWithCulture'
